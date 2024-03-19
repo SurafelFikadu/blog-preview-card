@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(47, 88%, 63%);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 25px;
+}
+
+.card {
+    background: #fff;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 12px black;
+}
+
+img {
+    border-radius: 10px;
+}
+
+p, img, h2 {
+    margin: 10px;
+}
+
+.img-name {
+    display: flex;
+    align-items: center;
+}
+
+p > strong {
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h2:hover {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
